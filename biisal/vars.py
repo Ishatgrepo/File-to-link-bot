@@ -18,8 +18,8 @@ class Var(object):
     name = str(getenv('name', 'FToLStreamBot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002392132973'))
-    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002392132973'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002647934052'))
+    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002647934052'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
@@ -41,6 +41,6 @@ class Var(object):
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://Kissu:Kissimunda.888@cluster0.f8ssexm.mongodb.net/?retryWrites=true&w=majority'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'BoB_Files1')) 
-    BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1002392132973")).split()))   
-    BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "-1002392132973")).split()))   
+    BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1002647934052")).split()))   
+    BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "-1002647934052")).split()))   
     
