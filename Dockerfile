@@ -9,4 +9,4 @@ RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 RUN mkdir /HONEY-File-Store
 WORKDIR /HONEY-File-Store
 COPY . /HONEY-File-Store
-CMD pyhton -m biisal
+CMD python -m biisal
